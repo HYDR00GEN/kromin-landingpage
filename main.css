@@ -1,0 +1,99 @@
+/*************  GENERAL    ***************/
+:root{
+    --primary-color: rgba(75, 75, 75, 0.747);
+    font-family: 'Koulen', cursive;
+}
+
+h2{
+    color: #5cbf2a;
+}
+
+.myButton {
+	background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+	background-color:#44c767;
+	border-radius:3px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:10px 61px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/*************  HEADER    ***************/
+header{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding:  10px;
+    background-color: grey;
+}
+
+#logo-nav{
+    height: 10%;
+}
+/*************  BODY    ***************/
+
+.welcome{
+    text-align: center;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--primary-color);
+}
+
+.course-container{
+
+    background-color: purple;
+    padding: 20%;
+}
+
+.gallery{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item{
+    width: 200px;
+    height: 100px;
+    color: greenyellow;
+    align-items: center;
+    background-color: rgb(0, 0, 102);
+}
+
+.gallery-invite{
+    background-color: grey;
+    align-items: center;
+    display: flex;
+    gap: 60px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item.invite{
+    width: 200px;
+    height: 100px;
+}
+
+h3{
+    text-align: center;
+}
+
+/*************  FOOTER    ***************/
+
+footer{
+
+}
